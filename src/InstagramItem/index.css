@@ -1,0 +1,109 @@
+@media screen and (min-width: 768px) {
+  .listItem {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 1vw;
+  }
+  .detailCon {
+    display: flex;
+    align-items: center;
+  }
+  .hisCon {
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    padding-left: 4vw;
+  }
+  .textCon {
+    display: flex;
+    padding-left: 1vw;
+    align-items: center;
+  }
+  .timeP {
+    font-size: 1.5vw;
+    color: #475569;
+    font-weight: 400;
+  }
+  .hisImg {
+    height: 2vw;
+  }
+  .hisH {
+    font-size: 1.5vw;
+    color: #475569;
+    font-weight: 400;
+    padding: 1vw;
+  }
+  .hisP {
+    font-size: 1.2vw;
+    color: #6697ff;
+  }
+  .delIcon {
+    width: 2vw;
+  }
+  .bton {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .listItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 1.5vw;
+  }
+  .detailCon {
+    display: flex;
+    align-items: center;
+  }
+  .hisCon {
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    padding-left: 0;
+  }
+  .textCon {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    justify-content: center;
+  }
+  .timeP {
+    font-size: 4vw;
+    color: #475569;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .hisImg {
+    width: 6vw;
+    margin-top: 0;
+  }
+  .hisH {
+    font-size: 3vw;
+    color: #475569;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1vh;
+  }
+  .hisP {
+    font-size: 2.2vw;
+    color: #6697ff;
+    margin-top: 0;
+  }
+  .delIcon {
+    width: 5vw;
+  }
+  .bton {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 768px) {
+  .mainCon {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstCon {
+    width: 100vw;
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #2850a7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logoImg {
+    height: 8vh;
+  }
+  .searchCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3367d6;
+    border-radius: 5px;
+  }
+  .searchImg {
+    height: 6vh;
+    padding: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-right: 2px solid #3367d6;
+  }
+  .inpBox {
+    height: 6vh;
+    width: 40vw;
+    border: none;
+    background-color: transparent;
+    padding-left: 1vw;
+    outline: none;
+    font-size: 3vh;
+    color: #ececec;
+  }
+  .secondCon {
+    width: 90vw;
+    border: none;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .secondCon1 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .noHisP {
+    font-size: 3vw;
+    color: #64748b;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainCon {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstCon {
+    width: 100vw;
+    padding: 1vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #2850a7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logoImg {
+    width: 30vw;
+  }
+  .searchCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3367d6;
+    border-radius: 5px;
+  }
+  .searchImg {
+    height: 5vh;
+    padding: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-right: 2px solid #3367d6;
+  }
+  .inpBox {
+    height: 3vh;
+    width: 40vw;
+    border: none;
+    background-color: transparent;
+    padding-left: 1vw;
+    outline: none;
+    font-size: 2vh;
+    color: #ececec;
+  }
+  .secondCon {
+    width: 90vw;
+    border: none;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .secondCon1 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .noHisP {
+    font-size: 3vw;
+    color: #64748b;
+  }
+}
